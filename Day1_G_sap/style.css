@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+/* #box1{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(69, 165, 42);
+} */
+
+/* third method  */
+ /* #box1{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+}  */
+
+/* // time line and hwo to control it */
+
+/* #box1{
+    height: 300px;
+    width: 300px;
+    background-color: rebeccapurple;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(51, 153, 88);
+}
+
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(200, 14, 58);
+}
+
+#box4{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(232, 187, 8);
+} */
+
+/* nav bar  */
+
+#nav{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  30px 50px;
+}
+#part2{
+    display: flex;
+    gap: 50px;
+}

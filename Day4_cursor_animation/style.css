@@ -1,0 +1,56 @@
+*
+{  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+};
+
+html , body{
+   height: 100%;
+ width: 100%;
+}
+body
+{
+    background-color: black;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cursor {
+    width: 20px;
+    height: 20px;
+    /* background-color: white; */
+    border-radius: 50%;
+    font-size: 5px;
+
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+text-align: center;
+    pointer-events: none; /* Ensures cursor doesn't interfere with events */
+   z-index: 9;
+}
+#image{
+    height: 30vw;
+    width: 60vw;
+    background-color: rgb(246, 15, 15);
+    position: relative;
+}
+#image  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    /* background-color: rgb(187, 187, 33); */
+}
